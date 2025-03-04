@@ -1,0 +1,16 @@
+.article-show {
+    padding: 50px 120px;
+
+    display: grid;
+    gap: 20px;
+}
+
+.article-show__title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.article-show__text {
+    color: #bdbdbd;
+    font-size: 22px;
+}

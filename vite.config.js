@@ -15,6 +15,8 @@ export default defineConfig({
                 'resources/css/info.css',
                 'resources/css/info_more.css',
                 'resources/css/company.css',
+                'resources/css/article.css',
+                'resources/css/article_show.css',
                 'resources/css/footer.css',
                 
                 'resources/js/app.js'

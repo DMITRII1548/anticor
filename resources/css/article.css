@@ -1,0 +1,31 @@
+.article {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 20px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.article__card {
+    display: grid;
+    gap: 20px;
+
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #bdbdbd;
+}
+
+.article__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #000;
+}
