@@ -130,6 +130,38 @@ legend {
 }
 
 
-.wellcome_text p{
-    font-size: 21px;
+
+.company_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 40px;
+}
+
+.cards{
+    width: 600px;
+    height: auto;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0;
+}
+
+.company_cards_text{
+    width: 400px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.cards_icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(75, 71, 71);
+    border-radius: 100%;
+    margin-top: 30px;
+    box-shadow: inset 0px 0px 20px 7px rgb(116, 110, 110);
 }
