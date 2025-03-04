@@ -14,7 +14,7 @@
             @error('content')
                 <p class="form__error">{{ $message }}</p>
             @enderror
-            <button class="from__btn">Отправить</button>
+            <button class="from__btn button">Отправить</button>
         </form>
     </section>
 @endsection
