@@ -108,3 +108,7 @@ label {
 legend {
     display: block;
 }
+
+.inner{
+    padding: 25px 0;
+}
