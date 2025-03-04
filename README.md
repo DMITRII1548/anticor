@@ -16,6 +16,7 @@ git checkout -t origin/evgene
 composer i <br>
 php artisan key:generate <br>
 php artisan migrate <br>
+php artisan storage:link <br>
 <br>
 npm i <br>
 npm run dev <br>

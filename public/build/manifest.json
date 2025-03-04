@@ -1,4 +1,14 @@
 {
+  "resources/css/article.css": {
+    "file": "assets/article-DHXdJccn.css",
+    "src": "resources/css/article.css",
+    "isEntry": true
+  },
+  "resources/css/article_show.css": {
+    "file": "assets/article_show-DcgaHdcA.css",
+    "src": "resources/css/article_show.css",
+    "isEntry": true
+  },
   "resources/css/base.css": {
     "file": "assets/base-WCT_u_5K.css",
     "src": "resources/css/base.css",
@@ -15,7 +25,7 @@
     "isEntry": true
   },
   "resources/css/form.css": {
-    "file": "assets/form-CNk4l5_5.css",
+    "file": "assets/form-m4TveCV_.css",
     "src": "resources/css/form.css",
     "isEntry": true
   },
