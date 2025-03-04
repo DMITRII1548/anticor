@@ -7,8 +7,6 @@ use App\Http\Requests\Message\StoreRequest;
 use App\Models\Message;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
-use Psy\CodeCleaner\FunctionReturnInWriteContextPass;
-use Symfony\Component\VarDumper\Caster\RedisCaster;
 
 class MessageController extends Controller
 {
@@ -20,7 +18,6 @@ class MessageController extends Controller
     public function store(StoreRequest $request): RedirectResponse
     {
         $data = $request->validated();
-
         Message::create($data);
 
         return redirect()->route('messages.thanks');

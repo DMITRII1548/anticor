@@ -4,7 +4,7 @@ namespace App\Models\Traits;
 
 trait HasImageSrcAttribute
 {
-    public function getImageSrAttribute(): string
+    public function getImageSrcAttribute(): string
     {
         if (strpos($this->image, 'http') === 0) {
             return $this->image;
