@@ -129,16 +129,18 @@ legend {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
     padding: 0 200px;
+    background-color: rgba(255, 255, 255, 0.05);;
 }
 
 .logo h1{
     font-size: 25px;
+    font-weight: 500;
     width: 500px;
     height: auto;
 }
 
 .footer_text{
     text-align: center;
+    font-weight: 300;
 }
