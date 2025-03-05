@@ -29,3 +29,14 @@
 
     color: #000;
 }
+
+@media screen and (max-width: 999px) {
+    .article {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .article__card {
+        gap: 10px;
+    }
+}

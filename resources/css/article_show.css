@@ -14,3 +14,19 @@
     color: #bdbdbd;
     font-size: 22px;
 }
+
+@media screen and (max-width: 999px) {
+    .article-show {
+        padding: 30px 10px;
+        gap: 10px;
+    }
+
+    .article-show__title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .article-show__text {
+        font-size: 16px;
+    }
+}
