@@ -132,3 +132,49 @@ legend {
 .more_info_text p{
     font-size: 21px;
 }
+
+.more_info_text ul{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.circle_number{
+    border-radius: 100px;
+    width: 95px;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_info_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.more_info_cards .more_info_text_card{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.more_info_cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.more_info_cards2 .more_info_text_card{
+    margin-top: 37px;
+    margin-bottom: 24px;
+}
+
+.more_info_text_card{
+    width: 500px;
+    height: auto;
+}

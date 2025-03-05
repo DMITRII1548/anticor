@@ -127,19 +127,31 @@ legend {
 
 .wellcome_text h1{
     font-size: 66px;
+    font-weight: 800;
+    width: 850px;
+    margin-bottom: 40px;
 }
 
 
 .wellcome_text p{
-    font-size: 21px;
+    font-size: 20px;
+    width: 700px;
 }
 
 .wellcome{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .wellcome_image{
     width: auto;
     height: auto;
+
+}
+
+.wellcome_image img{
+    border-radius: 20px;
+    width: 500px;
+    z-index: -1;
 }
