@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 20px;
 
-    padding-top: 50px;
+    padding-top: 140px;
     padding-bottom: 50px;
 
     padding-left: 120px;
@@ -19,7 +19,7 @@
     padding: 10px;
     width: 300px;
     border-radius: 4px;
-    background-color: #bdbdbd;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .article__title {
@@ -27,7 +27,7 @@
     font-size: 24px;
     font-weight: 700;
 
-    color: #000;
+    color: #fff;
 }
 
 @media screen and (max-width: 999px) {
