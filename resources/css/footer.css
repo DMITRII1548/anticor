@@ -136,7 +136,7 @@ legend {
 .logo h1{
     font-size: 25px;
     font-weight: 500;
-    width: 500px;
+    width: 290px;
     height: auto;
 }
 
@@ -145,41 +145,35 @@ legend {
     font-weight: 300;
 }
 
-@media (max-width: 1440px) {
-    .footer{
-        padding: 0 100px;
-    }
-    
-    .footer_text h3{
-        font-size: 15px;
-    }
-
-    .logo h1{
-        font-size: 20px;
+@media screen and (max-width: 1850px) {
+    .footer {
+        padding: 0 50px;
     }
 }
 
-@media (max-width: 1024px) {
-    .footer{
-        padding: 0 100px;
-    }
-    
-    .footer_text h3{
-        font-size: 10px;
+@media screen and (max-width: 1600px) {
+    footer {
+        padding: 0 50px;
     }
 
-    .logo h1{
-        font-size: 20px;
+    .logo h1 {
+        display: none;
     }
 }
 
-
-@media (max-width: 768px) {
-    .footer{
-        padding: 0 40px;
+@media screen and (max-width: 999px) {
+    footer {
+        padding: 0 10px;
     }
 
-    .logo h1{
-        font-size: 15px;
+    .footer {
+        padding: 0 10px;
     }
+
+    .footer h3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
 }
