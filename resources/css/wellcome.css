@@ -155,3 +155,18 @@ legend {
     width: 500px;
     z-index: -1;
 }
+
+@media(max-width: 1440px){
+    #wellcome{
+        padding: 0 200px;
+        padding-top: 60px;
+    }
+
+    .wellcome_text h1{
+        font-size: 60px;
+    }
+    
+    .wellcome_text p{
+        font-size: 18px;
+    }
+}

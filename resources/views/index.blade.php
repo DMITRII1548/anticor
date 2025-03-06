@@ -111,7 +111,7 @@
                 <div class="cards_text_name">
                     <h2>Экономический ущерб</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Money With Wings.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
@@ -124,7 +124,7 @@
                 <div class="cards_text_name">
                     <h2>Рост социального неравенства</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Scales.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
@@ -137,7 +137,7 @@
                 <div class="cards_text_name">
                     <h2>Ослабление государственных институтов</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Handshake.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
@@ -150,7 +150,7 @@
                 <div class="cards_text_name">
                     <h2>Угроза национальной безопасности</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Explosion.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
@@ -163,7 +163,7 @@
                 <div class="cards_text_name">
                     <h2>Низкое качество государственных услуг</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Water Tap.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
@@ -176,7 +176,7 @@
                 <div class="cards_text_name">
                     <h2>Подрыв доверия к власти</h2>
                     <div class="cards_icon">
-                        <img src="" alt="">
+                        <img src="{{asset('/image/Users.png')}}" alt="">
                     </div>
                 </div>
                 <div class="company_cards_text">
