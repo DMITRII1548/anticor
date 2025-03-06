@@ -175,18 +175,23 @@ legend {
 }
 
 .more_info_text_card{
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
+@media (max-width: 1600px) {
+    #more_info{
+        padding: 0 120px;
+    }
+}
 
 @media(max-width: 1440px){
-    #more_info{
-        padding: 0 200px;
-    }
-
     .company_cards{
         gap: 20px !important;
+    }
+
+    .more_info_cards2 {
+        margin-left: 50px;
     }
 }
 
@@ -204,5 +209,19 @@ legend {
 
     .more_info_text li{
         margin-bottom: 40px;
+    }
+
+    .more_info_text h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 999px) {
+    #more_info{
+        padding: 0 10px;
+    }
+
+    .more_info_text h1{
+        font-size: 48px;
     }
 }

@@ -135,7 +135,6 @@ legend {
     font-size: 66px;
     font-weight: 800;
     max-width: 850px;
-    max-width: 850px;
     margin-bottom: 40px;
     line-height: 0.9;
     line-height: 0.9;
@@ -164,8 +163,6 @@ legend {
     border-radius: 20px;
     max-width: 500px;
     min-width: 300px;
-    max-width: 500px;
-    min-width: 300px;
     z-index: -1;
 }
 
@@ -179,5 +176,37 @@ legend {
 @media screen and (max-width: 1600px) {
     #wellcome {
         padding: 0 120px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .wellcome_text h1{ 
+        font-size: 48px;
+    }
+
+    .wellcome_text {
+        min-width: 300px;
+    }
+
+    .wellcome_image > img {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    #wellcome {
+        padding: 0 10px;
+    }
+
+    .wellcome {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        text-align: center;
+    }
+
+    .wellcome_text p{
+        font-size: 18px;
     }
 }
