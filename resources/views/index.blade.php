@@ -11,8 +11,7 @@
 @endsection
 
 @section('content')
-    <div class="inner"></div>
-    <section class="none" id="wellcome">
+    <section class="" id="wellcome">
         <div class="wellcome">
             <div class="wellcome_text">
                 <h1>Добро пожаловать! <br> на сайт по борьбе с коррупцией</h1>

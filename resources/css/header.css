@@ -125,7 +125,6 @@ header{
     align-items: center;
     padding: 20px 350px;
     width: 100%;
-    position: fixed;
     z-index: 20;
     background-color: #1c1a1c;
     opacity: 10;
