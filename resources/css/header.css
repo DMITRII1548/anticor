@@ -140,3 +140,29 @@ header nav{
 .logo{
     width: 85px;
 }
+
+@media screen and (max-width: 1600px) {
+    header {
+        padding: 20px 120px;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    header {
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .logo {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}

@@ -12,7 +12,7 @@
 
 @section('content')
     <div class="inner"></div>
-    <section id ="wellcome">
+    <section class="none" id="wellcome">
         <div class="wellcome">
             <div class="wellcome_text">
                 <h1>Добро пожаловать! <br> на сайт по борьбе с коррупцией</h1>
@@ -24,11 +24,11 @@
         </div>
     </section>
     <div class="inner"></div>
-    <section id = "info">
+    <section class="none" id="info">
             <div class="info_text">
                 <h1>О нас</h1>
                 <p>Мы — студенты, объединенные общей целью: сделать нашу страну<br> свободной от коррупции. Мы не профессиональная организация, но наша энергия, идеи и желание перемен вдохновляют нас на активные действия.</p>
-                <a href=""><button class = "more">ПОДРОБНЕЕ</button></a>
+                <a href=""><button class="more">ПОДРОБНЕЕ</button></a>
             </div>
             <div class="info_text_right">
                 <h1>Наши цели</h1>
@@ -69,7 +69,7 @@
             </div>
     </section>
     <div class="inner"></div>
-    <section id = "more_info">
+    <section class="none" id="more_info">
         <div class="more_info_text">
             <h1>Что мы преддлагаем для борьбы с коррупцией</h1>
             <ul style="color: #fff">
@@ -104,7 +104,7 @@
         </div>
     </section>
     <div class="inner"></div>
-    <section id = "company">
+    <section class="none" id="company">
         <h1>Вред коррупции</h1>
         <div class="company_cards">
             <div class="cards">

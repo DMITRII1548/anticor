@@ -136,11 +136,44 @@ legend {
 .logo h1{
     font-size: 25px;
     font-weight: 500;
-    width: 500px;
+    width: 290px;
     height: auto;
 }
 
 .footer_text{
     text-align: center;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1850px) {
+    .footer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    footer {
+        padding: 0 50px;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    footer {
+        padding: 0 10px;
+    }
+
+    .footer {
+        padding: 0 10px;
+    }
+
+    .footer h3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
 }
